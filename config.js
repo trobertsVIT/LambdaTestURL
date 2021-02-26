@@ -6,7 +6,7 @@ module.exports = {
           "edge": [
             "87",
           ],
-          "edge": [
+          "chrome": [
             "76",
             "75"   
           ],
