@@ -7,47 +7,24 @@ module.exports = {
             "76",
             "75"
           ],
-          "firefox": [
-            "67",
-            "66"
-          ],
-          "opera": [
-            "58",
-            "57"
+          "edge": [
+            "87"
           ],
           "ie": [
             "11"
           ]
         },
-        "macos mojave": {
-          "chrome": [
-            "76",
-            "75"
-          ],
-          "firefox": [
-            "67",
-            "66"
-          ],
-          "opera": [
-            "58",
-            "57"
-          ],
-          "safari": [
-            "12"
+        "windows 8": {
+          "ie": [
+            "10"
           ]
         },
-        "ios 12.0": {
-          "devices": [
-            "iphone xr",
-            "iphone xs",
-            "iphone xs max"
+        "windows 7": {
+          "ie": [
+            "9",
+            "8"
           ]
         },
-        "android 9.0": {
-          "devices": [
-            "galaxy s9 plus"
-          ]
-        }
       },
      defer_time: 3,
      email: false,
