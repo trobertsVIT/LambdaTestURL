@@ -3,12 +3,12 @@ module.exports = {
      urllist: ["https://www.lambdatest.com/list-of-browsers", "https://www.lambdatest.com/"],
      BrowserConfigurations: {
         "windows 10": {
-          "chrome": [
-            "76",
-            "75"
+          "edge": [
+            "87",
           ],
           "edge": [
-            "87"
+            "76",
+            "75"   
           ],
           "ie": [
             "11"
@@ -17,12 +17,6 @@ module.exports = {
         "windows 8": {
           "ie": [
             "10"
-          ]
-        },
-        "windows 7": {
-          "ie": [
-            "9",
-            "8"
           ]
         },
       },
