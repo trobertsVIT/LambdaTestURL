@@ -1,9 +1,9 @@
 var configFile = require('./config');
 const axios = require('axios');
 //Your LambdaTest username
-const username = "tim.novak";
+const username = "tristan.roberts";
 //Your LambdaTest accessToken
-const accessToken = "bBvheyFAIiVsEbAxzu5TjW3YgMnYPlgBXrQmM0PxlOs2oNbMsv";
+const accessToken = "LVaY5T1a6hFsmwBY9jO3FTvAVplDggcEEbO4rVtxhfEhHki1fz";
 axios.defaults.baseURL = 'https://api.lambdatest.com/screenshots/v1';
 axios.defaults.headers.common['Authorization'] = "Basic " + Buffer.from(username + ":" + accessToken).toString('base64');
 axios.defaults.headers.common['Content-Type'] = 'application/json';
